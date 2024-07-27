@@ -1,0 +1,251 @@
+body {
+  background-color: #2f3061;
+  background-image: url("images/common1.jpeg");
+  background-size: cover;
+  border: 5px solid black;
+}
+
+header {
+  background-color: burlywood;
+  margin-bottom: 40px;
+  border-bottom: 5px solid black;
+  width: auto;
+}
+
+header h1 {
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding-top: 15px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ol li a {
+  display: flex;
+  padding-left: 0;
+}
+
+header nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px 0  0;
+}
+
+header nav ul ol li:last-child a {
+  margin-right: 0;
+}
+
+
+
+@media all and (min-width: 700px){
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+  }
+
+  header nav {
+    margin-top: 8px;
+  }
+
+  header nav li ol a:hover {
+    color: #bdbdbd;
+  }
+
+  header h1 {
+    margin: 14px 0 14px 20px;
+    padding-top: 0;
+    font-size: 42px;
+  }
+
+}
+
+main {
+  padding: 20px 0;
+}
+
+section {
+  padding-top: 2em;
+  margin-bottom: 100px;
+}
+
+
+
+h1 {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 300px;
+  color: black;
+}
+
+h2 {
+  margin: auto;
+  padding: 2em 0 2em 0;
+  color: black;
+  font-size: 25px;
+  text-decoration: underline black;
+  text-align: center;
+}
+
+styleA-h3 {
+ text-align: center;
+  margin: auto;
+  padding: 2em 0 2em 0;
+  color: black;
+  font-size: 25px;
+  text-decoration: underline black;
+}
+
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  font-weight: 800px;
+  color: black;
+  padding: 0 0 10px 10px;
+}
+
+footer {
+  border-top: 5px solid black;
+}
+
+footer p {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: brown;
+  padding-left: 0px;
+}
+
+a {
+	font-weight: 700;
+	text-decoration: none;
+}
+
+a:link { color: brown }
+a:visited { color: black }
+a:hover { color: red }
+a:active { color: pink }
+
+img {
+  margin: -5px;
+  width: 100%;
+  border: 5px solid black;
+  align-content: center;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.item {
+  flex: 1;
+}
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+hr {
+  background-image: url(images/hrImage.webp);
+  background-repeat: repeat-x;
+  background-size: 50%;
+  border: none;
+  background-color: black;
+  border-radius: 63%
+}
+
+
+/* Contact Form Design*/
+
+form {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+form label {
+  font-size: 20px;
+}
+
+form input,
+form textarea {
+  width: 95%;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+form textarea {
+  height: 160px;
+}
+
+form button {
+  border: 2px solid black;
+  background-color: brown;
+  color: black;
+}
+
+
+/* buttons for links*/
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: white;
+}
+
+ol {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  justify-content: center;
+}
+
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+.bg-callout {
+   padding: 50px 0 50px 0;
+   background-image: url("images/common.jpeg");
+   background-size: cover;
+   border: 5px solid black;
+}
+
+ul {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  padding-right: 10px;
+}
