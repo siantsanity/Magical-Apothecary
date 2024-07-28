@@ -6,15 +6,15 @@ body {
 }
 
 nav {
-  padding: 1.5rem 2rem;
+  padding: 2rem 2rem;
   background-color:#222831;
   color: #fff
 }
 
 .checkbtn {
-  font-size: 1.5rem;
-  color:white;
-  cursor: pointer
+  font-size: 24px;
+  padding: 15px;
+  cursor: pointer;
 }
 
 .nav-mobile {
@@ -38,6 +38,10 @@ nav {
   color: #fff;
   padding: 1rem 1.5rem;
   display: block;
+}
+
+.nav-mobile a:hover {
+  background-color: #333;
 }
 
 <div class="nav-mobile w3-animate-right">
@@ -66,10 +70,12 @@ nav {
 }
 
 
-body h1 { text-align: center;
+body h1 { 
+  text-align: center;
   color: #FF00FF;
-  text-outline: 15px whitesmoke;
-        }
+  }
+
+
 
 header {
   background-color: #df8ba8;
@@ -88,11 +94,13 @@ header h1 {
   font-family: 'Lobster', cursive;
   margin: 14px 0 14px 20px;
   padding-top: 0;
-  font-size: 42px;
+  font-size: 60px;
+  text-shadow: 4px 4px #000000;
+  width: auto;
   }
 
 main {
-  padding: 20px 0;
+  padding: 20px 20px 20px 20px;
 }
 
 section {
@@ -104,7 +112,6 @@ h1 {
   font-size: 30px;
   font-family: 'Lobster', cursive;
   font-weight: 300px;
-  color: black;
 }
 
 h2 {
@@ -112,9 +119,25 @@ h2 {
   padding: 2em 0 2em 0;
   color: #FFFAFA;
   font-family: 'Lobster', cursive;
-  text-outline: 15px whitesmoke;
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
+  text-shadow: 2px 2px #ff00fa;
+}
+
+h2 p {
+  font-size: 25px;
+  font-family: 'Lobster', cursive;
+  font-weight: 300px;
+  color: #FFFAFA;
+  text-align: center;
+}
+
+hr {
+  background-repeat: repeat-x;
+  background-size: 50%;
+  border: none;
+  background-color: ghostwhite;
+  border-radius: 63%
 }
 
 styleA-h3 {
@@ -122,18 +145,28 @@ styleA-h3 {
  margin: auto;
  padding: 2em 0 2em 0;
  color: #FFFAFA;
- font-size: 25px;
- text-outline: 15px black; 
+ font-size: 30px; 
+ font-family: 'Lobster', cursive;
+}
 
+h3 {
+  text-align: center;
+  margin: auto;
+  padding: 2em 0 2em 0;
+  color: #FFFAFA;
+  font-size: 30px;
+  text-shadow: 4px 4px #000000;
 }
 
 
 p {
   font-family: 'Lobster', cursive;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 800px;
-  color:#FFFAFA 
+  color:ghostwhite; 
   padding: 0 0 10px 10px;
+  text-align: center;
+  text-shadow: 2px 2px #ff00fa;
 }
 
 footer {
@@ -154,16 +187,11 @@ a {
 	text-decoration: none;
 }
 
-a:link { color: brown }
-a:visited { color: black }
-a:hover { color: red }
-a:active { color: pink }
-
 img {
   margin: -5px;
-  width: 100%;
+  width: 90%;
   border: 5px solid black;
-  align-content: center;
+  align-content: right;
 }
 
 .group {
@@ -186,7 +214,7 @@ hr {
   background-image: url(images/hippy.jpg);
   background-repeat: repeat-x;
   background-size: 50%;
-  border: none;
+  border: none;;
   background-color: ghostwhite;
   border-radius: 63%
 }
@@ -195,12 +223,13 @@ hr {
 /* Contact Form Design*/
 
 form {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'lobster' cursive;
 
 }
 
 form label {
   font-size: 20px;
+  font-family: 'lobster' cursive;
 }
 
 form input,
@@ -233,6 +262,7 @@ form button {
 
 .btn-primary {
   background-color: white;
+  display: inline-block;
 }
 
 ol {
@@ -260,8 +290,9 @@ ol {
 }
 
 ul {
-  text-align:left;
+  text-align: left;
   color: #FF00FF;
-  font-size: 20px;
+  font-size: 25px;
   padding-right: 10px;
+  text-shadow: 2px 2px black;
 }
