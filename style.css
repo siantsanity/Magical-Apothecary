@@ -40,7 +40,7 @@ nav {
   display: block;
 }
 
-<div class="nav-mobile w3-animate-right">"
+<div class="nav-mobile w3-animate-right">
 <a href="#home">Home</a>
 <a href="#about">About</a>
 <a href="#products">Product list</a>
@@ -49,15 +49,15 @@ nav {
 
 @media only screen and (max-width: 992px) {
   .checkbtn {
-    display: block;
-    font-size: 5rem;
-    position: absolute;
-    top: 30px;
-    left: 40px;
+  display: block;
+  font-size: 5rem;
+  position: absolute;
+  top: 30px;
+  left: 40px;
   }
   .nav-mobile {
-    top: 160px;
-    width
+  top: 160px;
+  width:100%;
   }
 .nav-mobile a {
   font-size: 2rem;
@@ -67,14 +67,16 @@ nav {
 
 
 body h1 { text-align: center;
-  color: #FF00FF ;}
+  color: #FF00FF;
+  text-outline: 15px whitesmoke;
+        }
 
 header {
   background-color: #df8ba8;
   margin-bottom: 40px;
   border: 5px solid black;
   text-align: center;
-  background-image: url(images/.jpg);
+  background-image: url(images/old.jpg);
   width: auto;
 }
 
@@ -83,7 +85,7 @@ header h1 {
   text-align: center;
   margin: 0;
   padding-top: 15px;
-  text-outline: 5px solid greenyellow;
+  font-family: 'Lobster', cursive;
   margin: 14px 0 14px 20px;
   padding-top: 0;
   font-size: 42px;
@@ -100,7 +102,7 @@ section {
 
 h1 {
   font-size: 30px;
-  font: tan-kindred;
+  font-family: 'Lobster', cursive;
   font-weight: 300px;
   color: black;
 }
@@ -109,23 +111,25 @@ h2 {
   margin: auto;
   padding: 2em 0 2em 0;
   color: #FFFAFA;
+  font-family: 'Lobster', cursive;
+  text-outline: 15px whitesmoke;
   font-size: 25px;
-  text-decoration: underline black;
   text-align: center;
 }
 
 styleA-h3 {
  text-align: center;
-  margin: auto;
-  padding: 2em 0 2em 0;
-  color: #FFFAFA;
-  font-size: 25px;
-  text-decoration: underline black;
+ margin: auto;
+ padding: 2em 0 2em 0;
+ color: #FFFAFA;
+ font-size: 25px;
+ text-outline: 15px black; 
+
 }
 
 
 p {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Lobster', cursive;
   font-size: 20px;
   font-weight: 800px;
   color:#FFFAFA 
@@ -179,11 +183,11 @@ img {
 }
 
 hr {
-  background-image: url(images/hrImage.webp);
+  background-image: url(images/hippy.jpg);
   background-repeat: repeat-x;
   background-size: 50%;
   border: none;
-  background-color: black;
+  background-color: ghostwhite;
   border-radius: 63%
 }
 
