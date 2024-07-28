@@ -1,6 +1,7 @@
 body {
   background-color: #DDA0DD;
-  background-image: url(images/trippy.jpeg);
+  background-image: 
+  url(images/trippy.jpeg);
   background-size: cover;
   border: 8 plx purple;
 }
@@ -78,7 +79,6 @@ body h1 {
 
 
 header {
-  background-color: #df8ba8;
   margin-bottom: 40px;
   border: 5px solid black;
   text-align: center;
@@ -122,6 +122,9 @@ h2 {
   font-size: 30px;
   text-align: center;
   text-shadow: 2px 2px #ff00fa;
+  background-image: url(images/purple.jpg)
+  box-align: center;
+
 }
 
 h2 p {
