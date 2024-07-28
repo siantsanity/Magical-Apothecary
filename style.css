@@ -1,19 +1,23 @@
 body {
-  background-color: #2f3061;
-  background-image: url("images/common1.jpeg");
+  background-color: #DDA0DD;
+  background-image: url(images/old.jpg);
   background-size: cover;
   border: 5px solid black;
 }
 
+body h1 { text-align: center;
+  color: #FF00FF ;}
+
 header {
-  background-color: burlywood;
+  background-color: #df8ba8;
   margin-bottom: 40px;
   border-bottom: 5px solid black;
+  text-align: center;
   width: auto;
 }
 
 header h1 {
-  color: black;
+  color:  #FF00FF;
   text-align: center;
   margin: 0;
   padding-top: 15px;
@@ -92,7 +96,7 @@ h1 {
 h2 {
   margin: auto;
   padding: 2em 0 2em 0;
-  color: black;
+  color: #FFFAFA;
   font-size: 25px;
   text-decoration: underline black;
   text-align: center;
@@ -102,7 +106,7 @@ styleA-h3 {
  text-align: center;
   margin: auto;
   padding: 2em 0 2em 0;
-  color: black;
+  color: #FFFAFA;
   font-size: 25px;
   text-decoration: underline black;
 }
@@ -112,7 +116,7 @@ p {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
   font-weight: 800px;
-  color: black;
+  color:#FFFAFA 
   padding: 0 0 10px 10px;
 }
 
@@ -125,7 +129,7 @@ footer p {
   margin: 0;
   padding-bottom: 10px;
   padding-top: 10px;
-  background-color: brown;
+  background-color:  #FF00FF;
   padding-left: 0px;
 }
 
@@ -200,7 +204,7 @@ form textarea {
 
 form button {
   border: 2px solid black;
-  background-color: brown;
+  background-color: #FF00FF;
   color: black;
 }
 
@@ -238,14 +242,14 @@ ol {
 
 .bg-callout {
    padding: 50px 0 50px 0;
-   background-image: url("images/common.jpeg");
+   background-image: url("images/purple.jpeg");
    background-size: cover;
    border: 5px solid black;
 }
 
 ul {
-  text-align: center;
-  color: black;
+  text-align:left;
+  color: #FF00FF;
   font-size: 20px;
   padding-right: 10px;
 }
