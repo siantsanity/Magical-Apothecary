@@ -1,9 +1,70 @@
 body {
   background-color: #DDA0DD;
-  background-image: url(images/old.jpg);
+  background-image: url(images/trippy.jpeg);
   background-size: cover;
-  border: 5px solid black;
+  border: 8 plx purple;
 }
+
+nav {
+  padding: 1.5rem 2rem;
+  background-color:#222831;
+  color: #fff
+}
+
+.checkbtn {
+  font-size: 1.5rem;
+  color:white;
+  cursor: pointer
+}
+
+.nav-mobile {
+  display: none;
+}
+
+#check:checked ~ .nav-mobile {
+  display: block;
+}
+
+.nav-mobile {
+  position: absolute;
+  top: 4.5rem;
+  left: 0;
+  background: #222831;
+  z-index: 1;
+  width: 200%;
+}
+
+.nav-mobile a {
+  color: #fff;
+  padding: 1rem 1.5rem;
+  display: block;
+}
+
+<div class="nav-mobile w3-animate-right">"
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#products">Product list</a>
+<a href="#contact">Contact</a>
+</div>
+
+@media only screen and (max-width: 992px) {
+  .checkbtn {
+    display: block;
+    font-size: 5rem;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+  }
+  .nav-mobile {
+    top: 160px;
+    width
+  }
+.nav-mobile a {
+  font-size: 2rem;
+  padding: 2rem 3rem;
+ }
+}
+
 
 body h1 { text-align: center;
   color: #FF00FF ;}
@@ -11,8 +72,9 @@ body h1 { text-align: center;
 header {
   background-color: #df8ba8;
   margin-bottom: 40px;
-  border-bottom: 5px solid black;
+  border: 5px solid black;
   text-align: center;
+  background-image: url(images/.jpg);
   width: auto;
 }
 
@@ -21,59 +83,11 @@ header h1 {
   text-align: center;
   margin: 0;
   padding-top: 15px;
-}
-
-header nav {
-  display: flex;
-  justify-content: center;
-}
-
-header nav ol li a {
-  display: flex;
-  padding-left: 0;
-}
-
-header nav ul {
-  display: flex;
-  padding-left: 0;
-  list-style: none;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-header nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 20px 0  0;
-}
-
-header nav ul ol li:last-child a {
-  margin-right: 0;
-}
-
-
-
-@media all and (min-width: 700px){
-  header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 30px;
+  text-outline: 5px solid greenyellow;
+  margin: 14px 0 14px 20px;
+  padding-top: 0;
+  font-size: 42px;
   }
-
-  header nav {
-    margin-top: 8px;
-  }
-
-  header nav li ol a:hover {
-    color: #bdbdbd;
-  }
-
-  header h1 {
-    margin: 14px 0 14px 20px;
-    padding-top: 0;
-    font-size: 42px;
-  }
-
-}
 
 main {
   padding: 20px 0;
@@ -84,11 +98,9 @@ section {
   margin-bottom: 100px;
 }
 
-
-
 h1 {
   font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font: tan-kindred;
   font-weight: 300px;
   color: black;
 }
@@ -160,11 +172,7 @@ img {
   flex: 1;
 }
 
-@media all and (min-width: 800px) {
-  section {
-    padding: 0 10%;
-  }
-  .group {
+.group {
     flex-direction: row;
     justify-content: space-evenly;
   }
