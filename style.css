@@ -4,7 +4,21 @@ body {
   url(images/trippy.jpeg);
   background-size: cover;
   border: 8 plx purple;
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px 10px 10px 10px;
+  width: 25%;
+  height: 50%;
+  
 }
+
+div.scroll-container img {
+  padding: 10px 10px 10px 10px; 
+}
+  
 
 nav {
   padding: 2rem 2rem;
@@ -13,63 +27,52 @@ nav {
 }
 
 .checkbtn {
-  font-size: 24px;
-  padding: 15px;
-  cursor: pointer;
+ font-size: 1.5rem;
+ color: white;
+ cursor: pointer;
 }
 
 .nav-mobile {
-  display: none;
+ display: none;
 }
+
 
 #check:checked ~ .nav-mobile {
-  display: block;
+ display: block;
 }
 
 .nav-mobile {
-  position: absolute;
-  top: 4.5rem;
-  left: 0;
-  background: #222831;
-  z-index: 1;
-  width: 200%;
+ position: absolute;
+ top: 4.5rem;
+ left: 0;
+ background: #222831;
+ z-index: 1;
+ width: 200px;
 }
-
 .nav-mobile a {
-  color: #fff;
-  padding: 1rem 1.5rem;
-  display: block;
+ color: #fff;
+ padding: 1rem 1.5rem;
+ display: block;
 }
 
-.nav-mobile a:hover {
-  background-color: #333;
-}
-
-<div class="nav-mobile w3-animate-right">
-<a href="#home">Home</a>
-<a href="#about">About</a>
-<a href="#products">Product list</a>
-<a href="#contact">Contact</a>
-</div>
 
 @media only screen and (max-width: 992px) {
-  .checkbtn {
-  display: block;
-  font-size: 5rem;
-  position: absolute;
-  top: 30px;
-  left: 40px;
-  }
-  .nav-mobile {
-  top: 160px;
-  width:100%;
-  }
+ .checkbtn {
+ display: block;
+ font-size: 5rem;
+ position: absolute;
+ top: 30px;
+ left: 40px;
+ }
+.nav-mobile {
+ top: 160px;
+ width: 100%;
+ }
 .nav-mobile a {
-  font-size: 2rem;
-  padding: 2rem 3rem;
+ font-size: 2rem;
+ padding: 2rem 3rem;
  }
 }
-
 
 body h1 { 
   text-align: center;
