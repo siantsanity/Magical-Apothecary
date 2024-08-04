@@ -137,7 +137,7 @@ h2 {
   
 }
 
-section2 p {
+section p {
   font-size: 30px;
   font-family: 'Lobster', cursive;
   font-weight: 300px;
@@ -234,15 +234,14 @@ img {
     flex-direction: row;
     justify-content: space-evenly;
   }
-}
+
 
 hr {
-  background-image: url(images/hippy.jpg);
-  background-repeat: repeat-x;
-  background-size: 50%;
-  border: none;;
-  background-color: ghostwhite;
-  border-radius: 63%
+  height: 20px;
+  background-color: black;
+  border: #f26df9;
+  margin: 10%;
+  width: auto;
 }
 
 
