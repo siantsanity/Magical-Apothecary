@@ -239,8 +239,8 @@ img {
 hr {
   height: 20px;
   background-color: black;
-  border: #f26df9;
-  margin: 10%;
+  border: 5px solid #f26df9;
+  margin: 5%;
   width: auto;
 }
 
