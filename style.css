@@ -151,7 +151,7 @@ a {
 }
 
 header {
-  margin-bottom: 40px;
+  margin: 40px;
   border: 5px solid black;
   text-align: center;
   background-image: url(Photos/images/old.jpg);
@@ -159,17 +159,17 @@ header {
   background-size: cover;
   background-position: center;
   width: auto;
-  height: auto;
+  height: 150%;
 }
 
 header h1 {
   color:  #FF00FF;
   text-align: center;
-  padding-top: 15px;
+  padding: 60px;
   font-family: 'Lobster', cursive;
   margin: 14px 0 14px 20px;
   font-size: 60px;
-  text-shadow: 4px 4px #000000;
+  text-shadow: 4px 4px white;
   width: auto;
   }
 
