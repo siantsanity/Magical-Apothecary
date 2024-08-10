@@ -2,15 +2,15 @@
 body {
   background-color: #DDA0DD;
   background-image: 
-  url(images/trippy.jpeg);
+  url(Photos/images/trippy.jpeg);
   background-size: cover;
-  border: 8px solid purple;
+  border: 5px solid black;
   background-repeat: no-repeat;
 }
 
   
 div.scroll-container {
-  background-image: url(images/hippy.jpg);
+  background-image: url(Photos/images/hippy.jpg);
   background-color: black;
   overflow: auto;
   white-space: nowrap;
@@ -108,7 +108,7 @@ a {
     color: green;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -136,34 +136,30 @@ a {
         cursor: pointer;
     }
 
-  .hamburger.active .bar:nth-child(2) {
+  .hamburger.active.bar:nth-child(2) {
         opacity: 0;
     }
 
-    .hamburger.active .bar:nth-child(1) {
+    .hamburger.active.bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
 
-    .hamburger.active .bar:nth-child(3) {
+    .hamburger.active.bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
 
 }
 
-
-body h1 { 
-  text-align: center;
-  color: #FF00FF;
-  }
-
-
-
 header {
   margin-bottom: 40px;
-  border: 5px solid #ff1493;
+  border: 5px solid black;
   text-align: center;
-  background-image: url(images/old.jpg);
+  background-image: url(Photos/images/old.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: auto;
+  height: auto;
 }
 
 header h1 {
@@ -178,74 +174,56 @@ header h1 {
   }
 
 main {
-  padding: 20px 15px 15px 15px;
+  padding: 20px 20px 20px 20px;
+}
+
+article {
+  padding-top: 2em;
+  margin-bottom: 100px;
+  border: 5px solid black;
 }
 
 section {
-  padding-top: 2em;
-  margin-bottom: 100px;
+  text-align: center;
+  border: 5px solid black;
 }
 
-h1 {
-  font-size: 30px;
-  font-family: 'Lobster', cursive;
-  font-weight: 300px;
-}
-
-h2 {
-  margin: auto;
-  padding: 2em 0 2em 0;
-  color: #FFFAFA;
-  font-family: 'Lobster', cursive;
+h1 h2 h3 h4 h5 h6 {
   font-size: 40px;
-  text-align: center;
-  text-shadow: 2px 2px #ff00fa;
-  
-}
-
-section p {
-  font-size: 30px;
   font-family: 'Lobster', cursive;
   font-weight: 300px;
-  color: #FFFAFA;
   text-align: center;
+}
+
+a {
+	font-weight: 700;
+	text-decoration: none;
+  text-decoration-color: black;
+}
+
+ul {
+  text-align: center;
+  color: #FF00FF;
+  font-size: 25px;
+  padding: 20px;
+  text-shadow: 2px 2px green;
+}
+
+img {
+  
+  margin: auto;
+  width: 90%;
+  border: 5px solid black;
+  border-radius: 10px;
 }
 
 hr {
-  background-repeat: repeat-x;
-  background-size: 50%;
-  border: none;
-  background-color: ghostwhite;
-  border-radius: 63%
-}
-
-
-styleA-h3 {
- text-align: center;
- margin: auto;
- padding: 2em 0 2em 0;
- color: #FFFAFA;
- font-size: 40px; 
- font-family: 'Lobster', cursive;
-}
-
-h3 {
-  text-align: center;
-  margin: auto;
-  padding: 2em 0 2em 0;
-  color: #FFFAFA;
-  font-size: 40px;
-  text-shadow: 4px 4px #000000;
-}
-
-h4 {
-  Text-align: center;
-  margin: auto;
-  padding: 2em 0 2em 0;
-  color: #FFFAFA;
-  font-size: 40px;
-  text-shadow: 4px 4px #000000;
-
+  height: 20px;
+  background-color: black;
+  border: 5px solid #f26df9;
+  margin: 5%;
+  width: auto;
+  padding: 5px;
 }
 
 
@@ -272,46 +250,6 @@ footer p {
   padding-left: 0px;
 }
 
-a {
-	font-weight: 700;
-	text-decoration: none;
-  text-decoration-color: black;
-}
-
-img {
-  
-  margin: auto;
-  width: 90%;
-  border: 5px solid black;
-  border-radius: 10px;
-  
-}
-
-
-.group {
-  display: flex;
-  flex-direction: column;
-}
-
-
-.item {
-  flex: 1;
-}
-
-.group {
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
-
-
-hr {
-  height: 20px;
-  background-color: black;
-  border: 5px solid #f26df9;
-  margin: 5%;
-  width: auto;
-}
-
 
 /* Contact Form Design*/
 
@@ -321,7 +259,7 @@ form {
 }
 
 form label {
-  font-size: 20px;
+  font-size: 35px;
   font-family: 'lobster' cursive;
 }
 
@@ -346,29 +284,4 @@ form button {
 }
 
 
-@media all and (min-width: 800px) {
-  section {
-    padding: 0 10%;
-  }
-  .group {
-    flex-direction: row;
-    justify-content: space-evenly;
-  
-  }
-}
 
-.bg-callout {
-   text-align: center;
-   padding: 50px 0 50px 0;
-   border: 5px solid black;
-   background-size: cover; 
-   background-image: url(images/purple.jpg);
-}
-
-ul {
-  text-align: center;
-  color: #FF00FF;
-  font-size: 25px;
-  padding: 20px;
-  text-shadow: 2px 2px green;
-}
