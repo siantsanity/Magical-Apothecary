@@ -11,16 +11,16 @@ body {
   
 div.scroll-container {
   background-image: url(Photos/images/hippy.jpg);
-  background-color: black;
+  background-repeat: no-repeat;
   overflow: auto;
   white-space: nowrap;
-  padding: 10px 10px 10px 10px;
-  width: auto;
+  padding: 5px 5px 5px 5px;
+  width: 90%;
   height: 40%;
-  border-color: black;
+  border: 5px yellow;
   Border-style: solid;
-  border-radius: 10px;
-  
+  border-radius: 10px; 
+  margin: auto;
 }
 
 div.scroll-container img {
@@ -29,7 +29,6 @@ div.scroll-container img {
   border: 5px solid #ff00ff;
   border-radius: 10px;
   border-style: solid;
-
 }
   
 
@@ -186,13 +185,16 @@ article {
 section {
   text-align: center;
   border: 5px solid black;
+  margin: 20% 10%;
+  Padding: 10px;
 }
 
-h1 h2 h3 h4 h5 h6 {
+h2 {
   font-size: 40px;
   font-family: 'Lobster', cursive;
   font-weight: 300px;
   text-align: center;
+  margin-bottom: 20%;
 }
 
 a {
@@ -204,9 +206,10 @@ a {
 ul {
   text-align: center;
   color: #FF00FF;
-  font-size: 25px;
+  font-size: 30px;
   padding: 20px;
-  text-shadow: 2px 2px green;
+  text-shadow: 2px 2px yellow;
+  margin: auto;
 }
 
 img {
@@ -218,12 +221,13 @@ img {
 }
 
 hr {
-  height: 20px;
+  height: 15px;
   background-color: black;
   border: 5px solid #f26df9;
-  margin: 5%;
+  margin: auto;
   width: auto;
   padding: 5px;
+  border-radius: 50%;
 }
 
 
@@ -231,10 +235,10 @@ p {
   font-family: 'Lobster', cursive;
   font-size: 30px;
   font-weight: 800px;
-  color:ghostwhite; 
+  color:#ff00ff; 
   padding: 10px 10px 10px 10px;
   text-align: center;
-  text-shadow: 2px 2px #ff00fa;
+  text-shadow: 2px 2px white;
 }
 
 footer {
