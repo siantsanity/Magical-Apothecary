@@ -16,8 +16,10 @@ a {
 /* header */
 
 .header {
+  background-image: url(Photos/imgages2/logo.png);
   background-color: #ff99cc;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  
   position: flex;
   width: 100%;
   z-index: 3;
