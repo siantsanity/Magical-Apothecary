@@ -146,6 +146,12 @@ a {
   }
 }
 
+header img {
+  max-width: 75px;
+  height: auto;
+  border: hidden;
+}
+
 
   
 div.scroll-container {
@@ -175,7 +181,8 @@ div.scroll-container img {
 
 
 article h1 {
-  margin: auto;
+  margin: 1em;
+  padding: 40px;
   border: 5px solid black;
   text-align: center;
   background-image: url(Photos/images/old.jpg);
@@ -208,6 +215,12 @@ article {
   background-image: url(Photos/images/purple.jpg);
   background-repeat: no-repeat;
   background-size: cover;  
+}
+
+article h2 {
+  margin: 1em;
+  padding: auto;
+
 }
 
 section {
@@ -254,23 +267,15 @@ ul {
 li {
   list-style-type: none;
 }
-
 img {
   margin: auto;
-  width: 90%;
+  width: 95%;
   border: 5px solid black;
   border-radius: 10px;
 }
 
-hr {
-  height: 15px;
-  background-color: black;
-  border: 5px solid #f26df9;
-  margin: auto;
-  width: auto;
-  padding: 5px;
-  border-radius: 50%;
-}
+
+  
 
 
 p {
