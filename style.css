@@ -1,18 +1,12 @@
 
 body {
-  background-color: #DDA0DD;
   background-image: 
   url(Photos/images/trippy.jpeg);
   background-size: cover;
   border: 5px solid black;
   background-repeat: no-repeat;
-  margin: auto;
-}
-
-body {
   margin: 0;
-  font-family: Helvetica, sans-serif;
-  background-color: #f4f4f4;
+  font-family: "Lobster", cursive;
 }
 
 a {
@@ -22,13 +16,12 @@ a {
 /* header */
 
 .header {
-  background-color: #fff;
+  background-color: #ff99cc;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-  position: fixed;
+  position: flex;
   width: 100%;
   z-index: 3;
-  margin: 10 px 5px 10px 5px;
-  padding: auto;
+  margin-right: 15px;
 }
 
 .header ul {
@@ -197,7 +190,7 @@ h1 {
   text-align: center;
   padding: 60px;
   font-family: 'Lobster', cursive;
-  margin: 14px 0 14px 20px;
+  margin: auto;
   font-size: 50px;
   text-shadow: 4px 4px white;
   width: auto;
