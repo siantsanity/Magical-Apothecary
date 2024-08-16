@@ -16,6 +16,11 @@ a {
 
 /* header */
 
+body header {
+  text-align: left;
+  border: 3px black;
+}
+
 .header {
   background-color: #FF69B4;
   position: fixed;
