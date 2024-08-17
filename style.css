@@ -200,6 +200,7 @@ div.scroll-container img {
 article h1 {
   margin: 20px;
   padding: 50px;
+  text-align: center;
   border: 3px solid #82dfd0;
   box-shadow: 3px 3px 3px 3px #8a2be2;
   background-image: url(Photos/images/old.jpg);
@@ -214,11 +215,10 @@ article h1 {
  
 h1 {
   color: #82dfd0; 
-  text-align: left;
-  padding: 45px;
+  padding: 45px 25px;
   font-family: 'Lobster', cursive;
   margin: auto;
-  font-size: 60px;
+  font-size: 50px;
   text-shadow: 4px 4px 4px #FF00FF;
   width: auto;
   }
