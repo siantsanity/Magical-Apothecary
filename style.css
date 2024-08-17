@@ -290,7 +290,7 @@ ul {
   color: #FF00FF;
   font-size: 30px;
   padding: 0;
-  text-shadow: 2px 2px yellow;
+  text-shadow: 2px 2px 2px #82dfd0;
   margin: auto;
   display: block;
 }
