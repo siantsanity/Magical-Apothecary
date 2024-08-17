@@ -200,7 +200,8 @@ div.scroll-container img {
 article h1 {
   margin: 20px;
   padding: 50px;
-  border: 5px solid black;
+  border: 3px solid #82dfd0;
+  box-shadow: 3px 3px 3px 3px #8a2be2;
   text-align: center;
   background-image: url(Photos/images/old.jpg);
   background-repeat: no-repeat;
@@ -208,18 +209,18 @@ article h1 {
   background-position: center;
   width: auto;
   height: 150%;
-  outline-color: #FFF0F5;
+  outline-color: #FF00FF;
   outline-style: solid;
 }
  
 h1 {
-  color: #FF00FF; 
+  color: #82dfd0; 
   text-align: center;
   padding: 60px;
   font-family: 'Lobster', cursive;
   margin: auto;
-  font-size: 50px;
-  text-shadow: 4px 4px white;
+  font-size: 60px;
+  text-shadow: 4px 4px 4px #FF00FF;
   width: auto;
   }
 
