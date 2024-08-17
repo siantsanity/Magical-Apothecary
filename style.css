@@ -1,4 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 body {
   background-image: 
   url(Photos/images/trippy.jpeg);
@@ -23,7 +26,7 @@ body header {
 
 .header {
   background-color: #FF69B4;
-  position: fixed;
+  position: flex;
   width: 100%;
   z-index: 3;
 }
@@ -61,6 +64,11 @@ body header {
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
+}
+
+.menu {
+  background-color: #FF69B4;
+  border: 3px solid black;
 }
 
 /* menu icon */
@@ -179,12 +187,10 @@ div.scroll-container img {
   border-style: solid;
 }
   
-    
-
 
 article h1 {
   margin: 1em;
-  padding: 40px;
+  padding: 50px;
   border: 5px solid black;
   text-align: center;
   background-image: url(Photos/images/old.jpg);
@@ -206,13 +212,21 @@ h1 {
   width: auto;
   }
 
+hr {
+  border-color: linear-gradient(to right, #FF00FF,  #8a2be2);
+  border-radius: 1px;
+  margin: 50px;
+  width: auto;
+  box-shadow: 2px 2px 2px 2px #FF00FF;
+}
+
 main {
   padding: 20px 20px 20px 20px;
 }
 
 article {
   padding-top: 2em;
-  margin: 100px 0px 100px;
+  margin: 0;
   border: 5px solid black;
   background-image: url(Photos/images/purple.jpg);
   background-repeat: no-repeat;
@@ -234,12 +248,6 @@ section {
   background-image: url(Photos/images/purple.jpg);  
 }
 
-section label {
-    color: #8a2be2;
-    font-size: 30px;
-    font-family: 'Lobster', cursive;
-    text-shadow: 2px 2px white;
-}
 
 h2, h3, h4, h5, h6, h7 {
   font-size: 50px;
@@ -249,6 +257,10 @@ h2, h3, h4, h5, h6, h7 {
   margin: 10% 0% 10% 0%;
   color: #8A2BE2;
   text-shadow: 2px 2px white;  
+}
+
+section img {
+  margin-top: 40px;
 }
 
 a {
@@ -261,9 +273,10 @@ ul {
   text-align: center;
   color: #FF00FF;
   font-size: 30px;
-  padding: 20px;
+  padding: 0;
   text-shadow: 2px 2px yellow;
   margin: auto;
+  display: block;
 }
 
 li {
@@ -278,9 +291,21 @@ img {
   border-radius: 10px;
 }
 
+.image-row {
+  display: inline-block;
+  align-content: space-evenly;
+  max-width: 75px;
+  max-height: auto;
+  padding: 0;
+  margin: 0 5px;
+}
 
-  
-
+.image-row img {
+  width: 100%;
+  height: auto;
+  border: 5px solid black;
+  border-radius: 10px;
+}
 
 p {
   font-family: 'Lobster', cursive;
@@ -291,6 +316,8 @@ p {
   text-align: center;
   text-shadow: 2px 2px white;
 }
+
+
 
 footer {
   border-top: 5px solid black;
@@ -304,44 +331,5 @@ footer p {
   background-color:  #FF00FF;
   padding-left: 0px;
 }
-
-
-/* Contact Form Design*/
-
-form {
-  font-family: 'lobster' cursive;
-
-}
-
-form label {
-  font-size: 35px;
-  font-family: 'lobster' cursive;
-}
-
-form input,
-form textarea {
-  width: 95%;
-  margin-bottom: 20px;
-  border: 3px solid #8A2BE2;
-  text-align: left;
-  border-radius: 20%;
-  background-color: #ee82ee;  
-  padding: 1em 1em;  
-}
-
-form textarea {
-  height: 160px;
-}
-
-form button {
-  border: 2px solid white;
-  background-color: #FF00FF;
-  color: black;
-  font-size: 20px;
-  font-family: 'lobster' cursive;
-  padding: 10px;
-
-}
-
 
 
