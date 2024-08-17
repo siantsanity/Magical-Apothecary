@@ -68,7 +68,6 @@ body header {
 
 .menu {
   background-color: #FF69B4;
-  border: 3px solid black;
 }
 
 /* menu icon */
@@ -249,7 +248,7 @@ section {
 }
 
 
-h2, h3, h4, h5, h6, h7 {
+h2, h3, h4, h5, h6, h7, h8 {
   font-size: 50px;
   font-family: 'Lobster', cursive;
   font-weight: 300px;
@@ -281,6 +280,15 @@ ul {
 
 li {
   list-style-type: none;
+}
+
+.list {
+  text-align: center;
+  color: #FF00FF;
+  font-size: 30px;
+  padding: 0;
+  text-shadow: 2px 2px yellow;
+  margin-bottom: auto;
 }
 
 
