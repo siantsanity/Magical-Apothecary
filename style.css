@@ -199,7 +199,6 @@ div.scroll-container img {
   
 article h1 {
   margin: 20px;
-  padding: 50px;
   text-align: center;
   border: 3px solid #82dfd0;
   box-shadow: 3px 3px 3px 3px #8a2be2;
@@ -218,7 +217,7 @@ h1 {
   padding: 45px 25px;
   font-family: 'Lobster', cursive;
   margin: auto;
-  font-size: 50px;
+  font-size: 40px;
   text-shadow: 4px 4px 4px #FF00FF;
   width: auto;
   }
