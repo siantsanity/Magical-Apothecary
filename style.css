@@ -163,6 +163,9 @@ header img {
   max-width: 80px;
   height: auto;
   border: hidden;
+   box-shadow: 5px 5px 5px 5px #8A2BE2;
+  outline-color: #FFF0F5;
+  outline-style: solid;
 }
 
 div.scroll-container {
@@ -174,22 +177,28 @@ div.scroll-container {
   padding: 5px 5px 5px 5px;
   width: 90%;
   height: 40%;
-  border: 5px #FFF0F5;
+  border: 5px solid black;
   Border-style: solid;
   border-radius: 10px; 
   margin: auto;
+  outline-color: #FFF0F5;
+  outline-style: solid;
+  box-shadow: 10px 10px 10px whitesmoke;
 }
 
 div.scroll-container img {
-  padding: 10px 10px 10px 10px; 
+  padding: 5px 5px 5px 5px; 
   width: 25%;
-  border: 5px solid #ff00ff;
+  border: 3px solid black;
   border-radius: 10px;
   border-style: solid;
+  outline-color: #FFF0F5;
+  outline-style: solid;
+  margin: auto;
 }
   
 article h1 {
-  margin: 1em;
+  margin: 20px;
   padding: 50px;
   border: 5px solid black;
   text-align: center;
@@ -219,7 +228,6 @@ hr {
   border-radius: 1px;
   margin: 50px;
   width: auto;
-  box-shadow: 2px 2px 2px 2px #FF00FF;
   outline-color: #FFF0F5;
   outline-style: solid;
 }
@@ -299,11 +307,14 @@ li {
   margin-bottom: auto;
 }
 
+
 img {
   margin: auto;
   width: 95%;
   border: 5px solid black;
   border-radius: 10px;
+  outline-color: #FFF0F5;
+  outline-style: solid;
 }
 
 .image-row {
@@ -326,14 +337,14 @@ p {
   font-family: 'Lobster', cursive;
   font-size: 30px;
   font-weight: 800px;
-  color:#ff00ff; 
+  color:ghostwhite; 
   padding: 10px 10px 10px 10px;
   text-align: center;
-  text-shadow: 2px 2px white;
+  text-shadow: 2px 2px #ff00ff;
 }
 
 footer {
-  border-top: 5px solid black;
+  border: 3px solid black;
   outline-color: #FFF0F5;
   outline-style: solid;
 }
@@ -343,7 +354,7 @@ footer p {
   margin: 0;
   padding-bottom: 10px;
   padding-top: 10px;
-  background-color:  #FF00FF;
+  background-image: linear-gradient(to right, #8a2be2, #FF00FF);
   padding-left: 0px;
 }
 
