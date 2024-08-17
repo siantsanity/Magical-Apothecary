@@ -202,7 +202,6 @@ article h1 {
   padding: 50px;
   border: 3px solid #82dfd0;
   box-shadow: 3px 3px 3px 3px #8a2be2;
-  text-align: center;
   background-image: url(Photos/images/old.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -215,7 +214,7 @@ article h1 {
  
 h1 {
   color: #82dfd0; 
-  text-align: center;
+  text-align: left;
   padding: 45px;
   font-family: 'Lobster', cursive;
   margin: auto;
