@@ -169,32 +169,31 @@ header img {
 }
 
 div.scroll-container {
-  background: cover;
-  background-image: url(Photos/images/hippy.jpg);
-  background-repeat: no-repeat;
+  background-image: linear-gradient(to right, #8a2be2, #FF00FF);
   overflow: auto;
   white-space: nowrap;
   padding: 5px 5px 5px 5px;
-  width: 90%;
-  height: 40%;
+  max-width: auto;
+  max-height: auto;
   border: 5px solid black;
   Border-style: solid;
   border-radius: 10px; 
-  margin: auto;
+  margin: 5px 5px 5px 5px;
   outline-color: #FFF0F5;
   outline-style: solid;
   box-shadow: 10px 10px 10px whitesmoke;
 }
 
 div.scroll-container img {
-  padding: 5px 5px 5px 5px; 
-  width: 25%;
+  padding: 3px 3px 3px 3px; 
+  max-width: 25%;
+  max-height: auto;
   border: 3px solid black;
   border-radius: 10px;
   border-style: solid;
   outline-color: #FFF0F5;
   outline-style: solid;
-  margin: auto;
+  margin: 5px 5px 5px 5px;
 }
   
 article h1 {
@@ -310,6 +309,7 @@ li {
 img {
   margin: auto;
   width: 95%;
+  height: auto;
   border: 5px solid black;
   border-radius: 10px;
   outline-color: #FFF0F5;
