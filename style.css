@@ -163,13 +163,17 @@ header img {
   max-width: 80px;
   height: auto;
   border: hidden;
-   box-shadow: 5px 5px 5px 5px #8A2BE2;
+  box-shadow: 5px 5px 5px 5px #8A2BE2;
   outline-color: #FFF0F5;
   outline-style: solid;
+  padding: 15px;
 }
 
 div.scroll-container {
-  background-image: linear-gradient(to right, #8a2be2, #FF00FF);
+  background-image: url(
+    Photos/images/city.jpeg
+  );
+  background: cover;
   overflow: auto;
   white-space: nowrap;
   padding: 5px 5px 5px 5px;
@@ -210,6 +214,7 @@ article h1 {
   outline-color: #FF00FF;
   outline-style: solid;
 }
+
  
 h1 {
   color: #82dfd0; 
