@@ -1,8 +1,7 @@
 
 
 body {
-  background-image: 
-  url(Photos/images/trippy.jpeg);
+  background-image: linear-gradient(to right, #8a2be2, #FF00FF);
   background-size: cover;
   border: 5px solid black;
   background-repeat: no-repeat;
@@ -203,7 +202,7 @@ div.scroll-container img {
 article h1 {
   margin: 20px;
   text-align: center;
-  border: 3px solid #82dfd0;
+  border: 3px solid black;
   box-shadow: 3px 3px 3px 3px #8a2be2;
   background-image: url(Photos/images/old.jpg);
   background-repeat: no-repeat;
@@ -215,23 +214,24 @@ article h1 {
   outline-style: solid;
 }
 
+
  
 h1 {
-  color: #82dfd0; 
+  color: black; 
   padding: 45px 25px;
   font-family: 'Lobster', cursive;
-  margin: auto;
+  margin-bottom: 25px;
   font-size: 40px;
   text-shadow: 4px 4px 4px #FF00FF;
   width: auto;
   }
 
 hr {
-  border-color: #8a2be2;
+  border-color: black;
   border-radius: 1px;
   margin: 50px;
   width: auto;
-  outline-color: #FFF0F5;
+  outline-color: black;
   outline-style: solid;
 }
 
@@ -243,7 +243,7 @@ article {
   padding-top: 2em;
   margin: 0;
   border: 5px solid #ff00ff;
-  background-image: url(Photos/images/purple.jpg);
+  background-image: linear-gradient(to right, #ff69b4, #8a2be2);
   background-repeat: no-repeat;
   background-size: cover;
   outline-color:#FFF0F5;
@@ -273,7 +273,7 @@ h2, h3, h4, h5, h6, h7, h8 {
   font-weight: 300px;
   text-align: center;
   margin: 10% 0% 10% 0%;
-  color: #8A2BE2;
+  color: black;
   text-shadow: 2px 2px white;
 }
 
@@ -289,7 +289,7 @@ a {
 
 ul {
   text-align: center;
-  color: #FF00FF;
+  color: black;
   font-size: 30px;
   padding: 0;
   text-shadow: 2px 2px 2px #82dfd0;
@@ -358,7 +358,7 @@ footer p {
   margin: 0;
   padding-bottom: 10px;
   padding-top: 10px;
-  background-image: linear-gradient(to right, #8a2be2, #FF00FF);
+  background-image: linear-gradient(to right, #FF00FF, #8a2be2);
   padding-left: 0px;
 }
 
