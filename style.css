@@ -175,13 +175,13 @@ div.scroll-container {
   background: cover;
   overflow: auto;
   white-space: nowrap;
-  padding: 5px 5px 5px 5px;
+  padding: 10px 10px 10px 10%;
   max-width: auto;
   max-height: auto;
   border: 5px solid black;
   Border-style: solid;
   border-radius: 10px; 
-  margin: 5px 5px 5px 5px;
+  margin: 10px 10px 10px 10px;
   outline-color: #FFF0F5;
   outline-style: solid;
   box-shadow: 10px 10px 10px whitesmoke;
@@ -196,7 +196,7 @@ div.scroll-container img {
   border-style: solid;
   outline-color: #FFF0F5;
   outline-style: solid;
-  margin: 5px 5px 5px 5px;
+  margin: 15px 15px 15px 15px;
 }
   
 article h1 {
@@ -323,6 +323,12 @@ img {
   border-radius: 10px;
   outline-color: #FFF0F5;
   outline-style: solid;
+}
+
+.image-1:hover {
+  transform: scale(1.5);
+  overflow: auto;
+  transition: transform .5s ease-in-out;
 }
 
 .image-row {
