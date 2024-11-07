@@ -159,13 +159,13 @@ body header {
 }
 
 header img {
-  max-width: 80px;
-  height: auto;
+  width: 40px;
+  height: 40px;
   border: hidden;
-  box-shadow: 5px 5px 5px 5px #8A2BE2;
+  box-shadow: 5px 5px 5px 5px #8a2be2;
   outline-color: #FFF0F5;
   outline-style: solid;
-  padding: 15px;
+  padding: 15px; 
 }
 
 div.scroll-container {
@@ -203,15 +203,16 @@ article h1 {
   margin: 20px;
   text-align: center;
   border: 3px solid black;
-  box-shadow: 3px 3px 3px 3px #8a2be2;
+  box-shadow: 3px 3px 3px 3px #ff00ff;
   background-image: url(Photos/images/old.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: auto;
   height: 150%;
-  outline-color: #FF00FF;
+  outline-color: black;
   outline-style: solid;
+  padding: 80px 0 80px;
 }
 
 
@@ -221,7 +222,7 @@ h1 {
   padding: 45px 25px;
   font-family: 'Lobster', cursive;
   margin-bottom: 25px;
-  font-size: 40px;
+  font-size: 60px;
   text-shadow: 4px 4px 4px #FF00FF;
   width: auto;
   }
@@ -242,12 +243,13 @@ main {
 article {
   padding-top: 2em;
   margin: 0;
-  border: 5px solid #ff00ff;
+  border: 5px solid black;
   background-image: linear-gradient(to right, #ff69b4, #8a2be2);
   background-repeat: no-repeat;
   background-size: cover;
-  outline-color:#FFF0F5;
+  outline-color: pink;
   outline-style: solid;
+  box-shadow: 10px 10px 10px whitesmoke;
 }
 
 article h2 {
@@ -257,11 +259,11 @@ article h2 {
 
 section {
   text-align: center;
-  border: 5px solid #FF69B4;
+  border: 5px solid black;
   margin: 20% 10%;
   Padding: 25px;
   background-image: url(Photos/images/purple.jpg); 
-  box-shadow: 2px 2px 2px 2px #8A2BE2;
+  box-shadow: 10px 10px 10px whitesmoke;
   outline-color: #FFF0F5;
   outline-style: solid;
 }
@@ -274,7 +276,8 @@ h2, h3, h4, h5, h6, h7, h8 {
   text-align: center;
   margin: 10% 0% 10% 0%;
   color: black;
-  text-shadow: 2px 2px white;
+  text-shadow: 4px 4px #ff69b4;
+  text-decoration: underline;
 }
 
 section img {
@@ -289,12 +292,13 @@ a {
 
 ul {
   text-align: center;
-  color: black;
+  color: ghostwhite;
   font-size: 30px;
   padding: 0;
-  text-shadow: 2px 2px 2px #82dfd0;
+  text-shadow: 2px 2px 2px #ff00ff;
   margin: auto;
   display: block;
+  text-decoration: underline black;
 }
 
 li {
@@ -344,7 +348,7 @@ p {
   color:ghostwhite; 
   padding: 10px 10px 10px 10px;
   text-align: center;
-  text-shadow: 2px 2px #ff00ff;
+  text-shadow: 2px 2px black;
 }
 
 footer {
