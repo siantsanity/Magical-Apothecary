@@ -164,7 +164,7 @@ header img {
   border: hidden;
   box-shadow: 5px 5px 5px 5px #8a2be2;
   outline-color: #FFF0F5;
-  outline-style: solid;
+  outline-style: solid pink;
   padding: 15px; 
 }
 
@@ -178,7 +178,7 @@ div.scroll-container {
   padding: 10px 10px 10px 10%;
   max-width: auto;
   max-height: auto;
-  border: 5px solid black;
+  border: 10px navy;
   Border-style: solid;
   border-radius: 10px; 
   margin: 10px 10px 10px 10px;
@@ -202,17 +202,16 @@ div.scroll-container img {
 article h1 {
   margin: 20px;
   text-align: center;
-  border: 3px solid black;
-  box-shadow: 3px 3px 3px 3px #ff00ff;
+  border: 3px solid pink;
+  box-shadow: 5px 5px 5px navy;
   background-image: url(Photos/images/old.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   width: auto;
   height: 150%;
-  outline-color: black;
-  outline-style: solid;
   padding: 80px 0 80px;
+  outline-color: black;
 }
 
 
@@ -259,13 +258,13 @@ article h2 {
 
 section {
   text-align: center;
-  border: 5px solid black;
+  border: 5px solid navy;
   margin: 20% 10%;
   Padding: 25px;
   background-image: url(Photos/images/purple.jpg); 
   box-shadow: 10px 10px 10px whitesmoke;
   outline-color: #FFF0F5;
-  outline-style: solid;
+  outline-style: solid black;
 }
 
 
@@ -319,10 +318,9 @@ img {
   margin: auto;
   width: 95%;
   height: auto;
-  border: 5px solid black;
+  border: 5px solid pink;
   border-radius: 10px;
-  outline-color: #FFF0F5;
-  outline-style: solid;
+  outline-color: black;
 }
 
 .image-1:hover {
